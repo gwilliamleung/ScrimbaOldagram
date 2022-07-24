@@ -9,8 +9,6 @@ const postEl = document.getElementById("post")
 const commentEl = document.getElementById("comment")
 const likesEl = document.getElementById("likes")
 const heartEl = document.getElementById("heart")
-
-
 const posts = [
     {
         name: "Vincent van Gogh",
@@ -40,7 +38,6 @@ const posts = [
         likes: 152
     }
 ]
-
 
 btnEl.addEventListener("click", nextPost)
 

@@ -20,6 +20,7 @@ header .container{
 section .container{
     flex-direction: column;
 }
+
 .user, .iconcontainer{
     display:flex;
 }
@@ -29,7 +30,6 @@ section .container{
     height:40px;
     padding: 10px 0px;
     border-radius: 50%;
-
 }
 
 .oldagram{
