@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header .container, 
+section .container{
+    width:450px;
+    margin:0 auto;
+    display:flex;
+}
+
+header .container{
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    padding: 10px 0px;
+}
+
+section .container{
+    flex-direction: column;
+}
+.user, .iconcontainer{
+    display:flex;
+}
+
+.avatar{
+    width:40px;
+    height:40px;
+    padding: 10px 0px;
+    border-radius: 50%;
+
+}
+
+.oldagram{
+    width:127px;
+} 
+
+section .avatar{
+    margin-right:9px;
+}
+
+.name,.username,.likes{
+    font-weight: 700;
+    margin-top:10px;
+}
+
+.location{
+    font-size:15px;
+}
+
+.post{
+    width: 450px;
+    height: 450px;
+    margin: 5px auto;
+}
+
+.icons{
+    width:30px;
+    margin: 20px 15px 0px 0px;
+}
+
+.likes{
+    margin:15px 0px;
+}
+
+.userinterface{
+    margin-left:20px;
+    height:150px;
+}
+
+#btn{
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+    background: white;
+    color:grey;
+    
+}
+
+#btn:hover{
+    cursor:pointer;
+}
+
